@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+float BS, GS, hra, da;
+printf("Enter your B.S:");
+scanf("%f",&BS);
+
+hra = 0.5*BS;
+da = 0.4*BS;
+
+GS = BS + hra + da;
+
+printf("GS = %f", GS);
+getch();
+}
+
+
