@@ -1,0 +1,3 @@
+OUTPUT
+Enter your score:92
+Grade=A

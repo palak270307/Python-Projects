@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+float s;
+printf("Enter your score:");
+scanf("%f", &s);
+
+if (s>=90 && s<=100) {
+	printf ("Grade=A");
+}
+else if (s>=80 && s<90) {
+	printf ("Grade=B");
+}
+else if (s>=70 && s<80) {
+	printf ("Grade=C");
+}
+else if (s>=60 && s<70) {
+	printf ("Grade=D");
+}
+else {
+	printf("FAIL");
+}
+
+getch();
+return 0;
+}
+
+

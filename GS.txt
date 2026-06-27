@@ -1,0 +1,3 @@
+OUTPUT
+Enter your B.S:10000
+GS = 19000.000000
